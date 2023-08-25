@@ -2,10 +2,50 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputdiv {
+  padding: 10px;
+  margin-top: -100px;
+  /* margin-right: 35%; */
+  margin-left: 25%;
+  width: 50%;
+  flex-direction: row;
+  flex: 1;
 }
+.input{
+  padding :10px ;
+  width: 80%;
+  box-shadow: #282c34;
+  border-color:#7d7af6 ;
+  border-width: 2 ;
+}
+.button {
+  margin: 10px;
+}
+.gradient-bg{
+  background: 'linear-gradient(to right,#7d7af6, #8863fa,#719ff0,#60d1e8)'
+}
+.todo-list { 
+    border-width:5;
+    border-color : 'purple';
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius:25;
+    height: '500px';
+    min-height: 300px;
+    width: 50%;
+    margin-right: 25%;margin-left: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .radio > label {
+    padding: 5 ;
+
+  }
+
+
+
+
+  
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
